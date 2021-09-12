@@ -7,7 +7,7 @@
 
 ## Commands
 
-```npm run dev``` starts developer server
+```npm run dev``` starts development server
 
 
 
