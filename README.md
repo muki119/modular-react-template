@@ -1,7 +1,7 @@
 # modulare-react-teplate
-react template without 
+### react template without 
 
 
-##npm run dev - starts developer server
+## 'npm run dev' - starts developer server
 
 ## npm run buid - builds program
