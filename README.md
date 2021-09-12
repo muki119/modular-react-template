@@ -1,6 +1,9 @@
 # modulare-react-teplate
-### react template without 
 
+### easy React template with mor modularity 
+
+## Installation 
+```git clone https://github.com/muki119/modular-react-template.git```
 
 ## Commands
 
