@@ -3,10 +3,10 @@
 
 
 ## Commands
-```sh
-npm run dev - starts developer server
-```
 
-```sh
-npm run buid - builds program
-```
+```shnpm run dev``` starts developer server
+
+
+
+```sh npm run buid ``` builds program
+
