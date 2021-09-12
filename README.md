@@ -4,7 +4,7 @@
 
 ## Commands
 
-```shnpm run dev``` starts developer server
+```sh npm run dev``` starts developer server
 
 
 
