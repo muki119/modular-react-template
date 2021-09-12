@@ -8,5 +8,5 @@
 
 
 
-```npm run buid ``` builds program
+```npm run buid``` builds program
 
