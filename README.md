@@ -4,6 +4,8 @@
 
 ## Installation 
 `git clone https://github.com/muki119/modular-react-template.git`
+`cd modular-react-template`
+`npm install`
 
 ## Commands
 
