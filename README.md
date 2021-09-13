@@ -16,10 +16,10 @@
 ### "Invalid Host Header"
 >In the case of a invalid host header add `allowedHosts:'all',` into the `webpack.config.js` folder in the `devServer` option.
 
-module.exports{ <br />
-.... <br />
+module.exports { <br />
+...,<br />
 devServer:{<br />
-  allowedHosts:'all',<br />
-}<br />
-....<br />
+ &nbsp; allowedHosts:'all',<br />
+},<br />
+...,<br />
 }<br />
