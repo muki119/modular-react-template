@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import './app.css'
 
 function App(){
   document.title = 'App'
@@ -19,7 +20,7 @@ function App(){
 
 function Home(){
   return(
-    <h1>Welcome</h1>
+    <h1>Welcome 🤝</h1>
   )
 }
 

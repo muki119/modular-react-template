@@ -21,6 +21,9 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  optimization: {
+    minimize: true,
+  },
   module: {
     rules: [
       {
@@ -50,5 +53,6 @@ module.exports = {
       },
     ]
   }
+  
 };
 
