@@ -10,7 +10,7 @@
 ## Commands
 
 `npm run dev` starts development server<br />
-`npm run build` builds program
+`npm run build` builds program<br />
 `npm run serve` serves build on port 8080
 
 ## Potential problems 
