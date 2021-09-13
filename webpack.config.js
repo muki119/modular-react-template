@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -9,12 +10,13 @@ module.exports = {
     port: 3000,
     historyApiFallback: true,
     client: {
-      overlay: true,
+      overlay: false,
     },
   },
-  plugins: [new HtmlWebpackPlugin({
+  plugins: [
+    new HtmlWebpackPlugin({
     template:"./public/index.html"
-  })],
+  }),new ESLintPlugin()],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
