@@ -4,7 +4,9 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
+  
   entry: './src/index.js',
+
   devServer: {
     static: './src',
     port: 3000,
@@ -17,13 +19,11 @@ module.exports = {
     new HtmlWebpackPlugin({
     template:"./public/index.html"
   }),new ESLintPlugin()],
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-  },
+
   optimization: {
     minimize: true,
   },
+
   module: {
     rules: [
       {
